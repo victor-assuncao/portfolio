@@ -91,18 +91,6 @@ export class Data {
                     aprender e superar desafios. Possui uma excelente comunição, qualidade 
                     ténica e se trata de uma pessoa muito colaborativa, estando sempre disposto 
                     a ajudar.`
-            },
-
-            {
-                id: 3,
-                name: 'Bruno Quadrotti',
-                company: 'TOTVS',
-                role: 'Engenheiro de Software',
-                testimony: 
-                    `Sempre foi um profissional proativo e disposto a aprender. Lidava com facilidade 
-                    com as demandas que eram passadas para ele e sempre estava disposto a entregar da 
-                    melhor forma possível. Do meu ponto de vista, o Victor teve um desenvolvimento 
-                    acima da média em comparação com outros profissionais que trabalhei, por isso recomendo ele.`
             }
         ]
     }

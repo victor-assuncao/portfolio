@@ -3,10 +3,10 @@
 .home {
     padding: 0 60px 0 120px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    justify-content: space-between;
     width: 100%;
     margin-top: 125px;
-    gap: 20px;
+    gap: 100px 20px;
 }
 
 .home__presentation,
@@ -81,6 +81,7 @@
 /* Visual */
 
 .home__visual > .container {
+    position: relative;
     width: 612px;
 }
 
@@ -105,8 +106,8 @@
     z-index: 2;
 
     position: absolute;
-    bottom: 40px;
-    right: -40px;
+    bottom: -30px;
+    right: 40px;
 }
 
 .smallText {
@@ -197,6 +198,7 @@
 
     .home {
         padding: 0 60px;
+        flex-direction: column-reverse;
     }
     
     .home__title {
@@ -222,6 +224,15 @@
     .home__visual {
         display: flex;
         justify-content: center;
+    }
+
+    .home__evolution {
+        /* top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        margin: auto auto auto auto; */
     }
 
     .home__presentation {
@@ -254,6 +265,10 @@
 
     .home__visual > .container {
         width: 100%;
+    }
+
+    .home__evolution {
+        display: none;
     }
 
     .home__title {
