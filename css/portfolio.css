@@ -97,11 +97,23 @@
     .portfolio__title {
         font-size: 4rem;
     }
+
+    .portfolio .card__btn {
+        background-color: var(--dark-blue);
+    }
 }
 
 @media (max-width: 630px) { /* Mobile Version */
 
     .portfolio {
         padding: 60px 16px;
+    }
+}
+
+
+@media (max-width: 430px) { /* Mobile Version */
+
+    .portfolio__title {
+        font-size: 3rem;
     }
 }

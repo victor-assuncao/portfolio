@@ -159,4 +159,9 @@
     .testimonies {
         padding: 32px 16px;
     }
+
+    .testimonies > .container:first-child {
+        min-width: initial;
+        max-width: initial;
+    }
 }

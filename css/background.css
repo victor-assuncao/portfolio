@@ -8,24 +8,24 @@
 
     --color: rgba(115, 142, 209, 0.15);
     
-    width: 650px;
-    height: 300px;
+    width: 410px;
+    height: 75px;
 
     background-color: var(--color);
     box-shadow: 0 0 100px 350px var(--color);
 
     filter: blur(50px);
 
-    top: -40px;
-    right: -225px;
+    top: 0;
+    right: 0;
 }
 
 .background:nth-child(3) {
 
     --color: rgba(115, 142, 209, 0.30);
     
-    width: 500px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
 
     background-color: var(--color);
     box-shadow: 0 0 100px 150px var(--color);
@@ -33,7 +33,7 @@
     filter: blur(50px);
 
     top: 450px;
-    right: -230px;
+    right: 0;
 }
 
 .backgroundLines {
