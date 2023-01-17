@@ -12,45 +12,54 @@ export class Data {
                 title: 'HTML',
                 logoName: 'skill_html',
                 description: 
-                    `Lorem ipsum dolor sit amet consectetur adipisicing elit, 
-                    Voluptatem delectus minus explicabo mollitia praesentium.`,
-                viewMoreURL: 'www.google.com'
+                    `HTML (HyperText Markup Language) é uma linguagem de marcação utilizada na construção de páginas na Web. 
+                    Documentos HTML podem ser interpretados por navegadores.`,
+                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos'
             },
 
             {
                 title: 'CSS',
                 logoName: 'skill_css',
                 description: 
-                    `Lorem ipsum dolor sit amet consectetur adipisicing elit, 
-                    Voluptatem delectus minus explicabo mollitia praesentium.`,
-                viewMoreURL: 'www.google.com'
+                    `CSS (Cascading Style Sheets) é um mecanismo para adicionar estilos a uma página web, 
+                    adicionando um link para um arquivo CSS que contém os estilos ou dentre outras formas.`,
+                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css'
             },
 
             {
                 title: 'Java Script',
                 logoName: 'skill_js',
                 description: 
-                    `Lorem ipsum dolor sit amet consectetur adipisicing elit, 
-                    Voluptatem delectus minus explicabo mollitia praesentium.`,
-                viewMoreURL: 'www.google.com'
+                    `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
+                    nível com tipagem dinâmica fraca e multiparadigma.`,
+                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-javascript'
             },
 
             {
                 title: 'Type Script',
                 logoName: 'skill_ts',
                 description: 
-                    `Lorem ipsum dolor sit amet consectetur adipisicing elit, 
-                    Voluptatem delectus minus explicabo mollitia praesentium.`,
-                viewMoreURL: 'www.google.com'
+                    `Typescript é uma linguaguem de programação cujo a mesma é um superconjunto sintático estrito de 
+                    JavaScript e adiciona tipagem estática opcional à linguagem.`,
+                viewMoreURL: 'www.tecnoblog.net/responde/o-que-e-typescript-guia-para-iniciantes/'
             },
 
             {
                 title: 'Git',
                 logoName: 'skill_git',
                 description: 
-                    `Lorem ipsum dolor sit amet consectetur adipisicing elit, 
-                    Voluptatem delectus minus explicabo mollitia praesentium.`,
-                viewMoreURL: 'www.google.com'
+                    `Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de 
+                    software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.`,
+                viewMoreURL: 'www.atlassian.com/br/git/tutorials/what-is-git'
+            },
+
+            {
+                title: 'Scrumban',
+                logoName: 'skill_scrumban',
+                description: 
+                    `Scrumban é uma abordagem alinhada ao Agile para entrega de produtos, que é um híbrido de Scrum e 
+                    Kanban. O Scrumban foi originalmente projetado como uma forma de transição do Scrum para o Kanban.`,
+                viewMoreURL: 'blog.pmtech.com.br/scrumban/'
             },
         ]
     }

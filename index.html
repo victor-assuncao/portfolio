@@ -115,17 +115,17 @@
                     <div class="home__contacts">
 
                         <a class="container" href="https://www.linkedin.com/in/victor27/" target="_blank">
-                            <img class="home__contact" src="./img/icon-linkedin.png" alt="logo do linkedin" />
+                            <img class="home__contact" src="./img/home_linkedin.png" alt="Contato LinkedIn" />
                         </a>
 
                         <a class="container" href="https://www.instagram.com/victor.assunc/" target="_blank">
 
-                            <img class="home__contact" src="./img/icon-instagram.png" alt="logo do instagram" />
+                            <img class="home__contact" src="./img/home_instagram.png" alt="Contato Instagram" />
                         </a>
 
                         <a class="container" href="https://wa.me/5547999504308?text=" target="_blank">
 
-                            <img class="home__contact" src="./img/icon-whats.png" alt="logo do whatsapp" />
+                            <img class="home__contact" src="./img/home_whats.png" alt="Contato Whatsapp" />
                         </a>
                     </div>
                 </div>
@@ -425,14 +425,17 @@
             <div class="card swiper-slide">
 
                 <div class="container">
-                    <img src="./img/{{ logoName }}.png" alt="" class="card__logo">
+
+                    <div class="container">
+                        <img src="./img/{{ logoName }}.png" alt="" class="card__logo">
+                    </div>
+
+                    <h4 class="card__title">{{ title }}</h4>
+
+                    <p class="card__description">
+                        {{ description }}
+                    </p>
                 </div>
-
-                <h4 class="card__title">{{ title }}</h4>
-
-                <p class="card__description">
-                    {{ description }}
-                </p>
 
                 <a class="card__link" href="http://{{ viewMoreURL }}" target="_blank">
 
