@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding-top: 140px;
+    font-size: 1.6rem;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.body {
+    background-repeat: no-repeat;
+}
+
+.is-darkBlue {
+    color: var(--dark-blue);
+}
+
+.is-lightBlue {
+    color: var(--light-blue);
+}
+
+.is-white {
+    color: #ffffff !important; 
+}
+
+.is-block {
+    display: block !important;
+}
+
+.is-flex {
+    display: flex !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+/* Modifiers */

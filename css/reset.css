@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 130%;
+}
+
+body, html{
+    width: 100%;
+    height: 150%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+:root {
+    --dark-blue: #738DD1;
+    --light-blue: #BFCFF8;
+
+    --tablet-version: 1110px;
+    --mobile-version: 630px;
+}
+
+@media (max-width: 1110px) { /* Tablet Version */
+
+    .section {
+        padding: 0 60px;
+    }
+
+    .section__title {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 630px) { /* Mobile Version */
+
+    .section {
+        padding: 0 16px;
+    }
+}
