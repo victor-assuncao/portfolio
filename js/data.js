@@ -97,13 +97,12 @@ export class Data {
                 id: 3,
                 name: 'Neto Jacinto',
                 company: 'TOTVS',
-                role: 'Agile Master',
+                role: 'Senior Product Designer',
                 testimony: 
-                    `O Victor apesar da pouca idade é um profissional fora de série. 
-                    Destoa-se na busca por conhecimento, onde está sempre disposto a 
-                    aprender e superar desafios. Possui uma excelente comunição, qualidade 
-                    ténica e se trata de uma pessoa muito colaborativa, estando sempre disposto 
-                    a ajudar.`
+                    `O Victor tem um perfil comunicativo, proativo, sempre em busca de atender os 
+                    requisitos de interface definidos em protótipo, além de criativo e ágil na 
+                    execução das atividades de front end.  Em relação ao produto, sempre se demonstrou 
+                    preocupado em realizar entregas que entregue valor ao cliente e a empresa.`
             }
         ]
     }
