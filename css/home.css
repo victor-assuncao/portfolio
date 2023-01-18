@@ -72,10 +72,17 @@
 
 .home__contacts > .container {
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .home__contact {
     width: 30px;
+}
+
+.home__github {
+    font-size: 36px;
+    color: var(--dark-blue);
 }
 
 /* Visual */
@@ -219,6 +226,10 @@
 
     .home__contact {
         width: 40px;
+    }
+
+    .home__github {
+        font-size: 49px;
     }
 
     .home__visual {
