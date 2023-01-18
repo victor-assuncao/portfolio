@@ -79,9 +79,21 @@ export class Data {
                     aprendizado muito rápida. Questionador e idealizador, 
                     características essenciais para o mercado de tecnologia.`
             },
-
+            
             {
                 id: 2,
+                name: 'Neto Jacinto',
+                company: 'TOTVS',
+                role: 'Senior Product Designer',
+                testimony: 
+                    `O Victor tem um perfil comunicativo, proativo, sempre em busca de atender os 
+                    requisitos de interface definidos em protótipo, além de criativo e ágil na 
+                    execução das atividades de front end.  Em relação ao produto, sempre se demonstrou 
+                    preocupado em realizar entregas que entregue valor ao cliente e a empresa.`
+            },
+
+            {
+                id: 3,
                 name: 'Anderson Simões',
                 company: 'TOTVS',
                 role: 'Agile Master',
@@ -93,16 +105,17 @@ export class Data {
                     a ajudar.`
             },
 
+
             {
-                id: 3,
-                name: 'Neto Jacinto',
+                id: 4,
+                name: 'Bruno Quadrotti',
                 company: 'TOTVS',
-                role: 'Senior Product Designer',
+                role: 'Engenheiro Front end',
                 testimony: 
-                    `O Victor tem um perfil comunicativo, proativo, sempre em busca de atender os 
-                    requisitos de interface definidos em protótipo, além de criativo e ágil na 
-                    execução das atividades de front end.  Em relação ao produto, sempre se demonstrou 
-                    preocupado em realizar entregas que entregue valor ao cliente e a empresa.`
+                    `Victor é um profissional completo. Sempre foi proativo e disposto a aprender. 
+                    Sabe lidar com facilidade com demandas complexas e possui uma qualidade elevada 
+                    naquilo que entrega. Victor tem um potencial de crescimento acima da média por 
+                    isso recomendo ele.`
             }
         ]
     }
