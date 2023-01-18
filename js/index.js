@@ -84,7 +84,7 @@ function openAndCloseMenu() {
     // Testimonies
     var swiper = new Swiper("[data-testimonies-swiper]", {
         slidesPerView: "auto",
-        initialSlide: 0, // Quando tiver mais de 2 depoimentos, trocar de 0 pra 1.
+        initialSlide: 1,
         centeredSlides: true,
         spaceBetween: 30,
         pagination: {
