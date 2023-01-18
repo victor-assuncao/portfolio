@@ -302,9 +302,13 @@
                 com você para agendarmos uma conversa.
             </h2>
 
-            <form action="" class="container">
-                <input class="contact__email" type="email" placeholder="Informe seu e-mail" />
+            <form class="container" action="https://formsubmit.co/victorassuncao17@gmail.com" method="POST">
+                
+                <input class="contact__email" type="email" name="email" placeholder="Informe seu e-mail" />
                 <button type="submit" class="contact__submit">Enviar</button>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://victor-assuncao.github.io/portfolio/">
             </form>
 
             <img class="contact__background" src="./img/contact_grayLines.png" alt="">
