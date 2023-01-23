@@ -67,7 +67,7 @@ function openAndCloseMenu() {
             760: {
                 slidesPerView: 2,
             }, 
-          }
+        }
     });
 
     let data = new Data().dataSkills
@@ -84,7 +84,7 @@ function openAndCloseMenu() {
     // Testimonies
     var swiper = new Swiper("[data-testimonies-swiper]", {
         slidesPerView: "auto",
-        initialSlide: 1,
+        initialSlide: 0,
         centeredSlides: true,
         spaceBetween: 30,
         pagination: {
@@ -96,6 +96,11 @@ function openAndCloseMenu() {
             nextEl: "[data-testimonies-next]",
             prevEl: "[data-testimonies-prev]",
         },
+        breakpoints: {
+            630: {
+                initialSlide: 1,
+            }, 
+        }
       });
 
     data = new Data().dataTestimonies;

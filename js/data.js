@@ -69,17 +69,17 @@ export class Data {
         return [
 
             {
-                id: 1,
-                name: 'Yuri Cabral',
+                id: 5,
+                name: 'Diego Zimmermann',
                 company: 'TOTVS',
-                role: 'Analista l de qualidade',
+                role: 'Team Coordinator & Squad Leader',
                 testimony: 
-                    `Um profissional inspirador, sempre buscando 
-                    novos conhecimentos e com uma capacidade de 
-                    aprendizado muito rápida. Questionador e idealizador, 
-                    características essenciais para o mercado de tecnologia.`
+                    `Victor é um profissional dedicado e que tem muito interesse pela aprendizagem.
+                    Com pouco tempo de carreira, já se identificou com uma área, onde vem se especializando 
+                    como Desenvolvedor Front-end. Tem um perfil curioso, colaborativo e comunicativo. 
+                    Qualidades muito importantes para um trabalho em equipe.`
             },
-            
+
             {
                 id: 2,
                 name: 'Neto Jacinto',
@@ -90,6 +90,30 @@ export class Data {
                     requisitos de interface definidos em protótipo, além de criativo e ágil na 
                     execução das atividades de front end.  Em relação ao produto, sempre se demonstrou 
                     preocupado em realizar entregas que entregue valor ao cliente e a empresa.`
+            },
+
+            {
+                id: 1,
+                name: 'Yuri Cabral',
+                company: 'TOTVS',
+                role: 'Analista l de qualidade',
+                testimony: 
+                    `Um profissional inspirador, sempre buscando 
+                    novos conhecimentos e com uma capacidade de 
+                    aprendizado muito rápida. Questionador e idealizador, 
+                    características essenciais para o mercado de tecnologia.`
+            },
+        
+            {
+                id: 4,
+                name: 'Bruno Quadrotti',
+                company: 'TOTVS',
+                role: 'Engenheiro Front end',
+                testimony: 
+                    `Victor é um profissional completo. Sempre foi proativo e disposto a aprender. 
+                    Sabe lidar com facilidade com demandas complexas e possui uma qualidade elevada 
+                    naquilo que entrega. Victor tem um potencial de crescimento acima da média por 
+                    isso recomendo ele.`
             },
 
             {
@@ -104,19 +128,6 @@ export class Data {
                     ténica e se trata de uma pessoa muito colaborativa, estando sempre disposto 
                     a ajudar.`
             },
-
-
-            {
-                id: 4,
-                name: 'Bruno Quadrotti',
-                company: 'TOTVS',
-                role: 'Engenheiro Front end',
-                testimony: 
-                    `Victor é um profissional completo. Sempre foi proativo e disposto a aprender. 
-                    Sabe lidar com facilidade com demandas complexas e possui uma qualidade elevada 
-                    naquilo que entrega. Victor tem um potencial de crescimento acima da média por 
-                    isso recomendo ele.`
-            }
         ]
     }
 };

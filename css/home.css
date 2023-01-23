@@ -87,6 +87,11 @@
 
 /* Visual */
 
+.home__visual {
+    display: flex;
+    justify-content: end;
+}
+
 .home__visual > .container {
     position: relative;
     width: 612px;
@@ -233,17 +238,7 @@
     }
 
     .home__visual {
-        display: flex;
         justify-content: center;
-    }
-
-    .home__evolution {
-        /* top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-
-        margin: auto auto auto auto; */
     }
 
     .home__presentation {

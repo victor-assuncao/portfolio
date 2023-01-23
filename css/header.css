@@ -1,18 +1,21 @@
 .header {
-
     position: fixed;
     background-color: transparent;
-    display: flex;
-    justify-content: space-between;
     padding: 0 120px;
-    align-items: center;
     width: 100%;
-    gap: 40px;
     top: 0;
     height: 140px;
     z-index: 11;
-
     transition-duration: 200ms;
+}
+
+.header > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 100%;
+    width: 100%;
 }
 
 /* Modifiers */
