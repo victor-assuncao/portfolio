@@ -1,0 +1,45 @@
+.logo {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo > .container {
+    color: #585858;
+    font-size: 2.2rem;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.logo__bluePart {
+    color: var(--dark-blue);
+}
+
+/* Modifier */
+
+.logo--alignLeft > .container {
+    text-align: left;
+}
+
+.logo--menu {
+    display: none;
+    cursor: initial;
+}
+
+.logo--menu > .container {
+    color: #fff;
+}
+
+@media (max-width: 900px) {
+    
+    .logo--menu {
+        display: block;
+    }
+}
+
+@media (max-height: 430px) {
+    
+    .logo--menu {
+        display: none !important;
+    }
+}

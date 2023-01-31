@@ -1,0 +1,44 @@
+.background {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.background:nth-child(2) {
+
+    --color: rgba(115, 142, 209, 0.15);
+    
+    width: 410px;
+    height: 75px;
+
+    background-color: var(--color);
+    box-shadow: 0 0 100px 350px var(--color);
+
+    filter: blur(50px);
+
+    top: 0;
+    right: 0;
+}
+
+.background:nth-child(3) {
+
+    --color: rgba(115, 142, 209, 0.30);
+    
+    width: 270px;
+    height: 270px;
+
+    background-color: var(--color);
+    box-shadow: 0 0 100px 150px var(--color);
+
+    filter: blur(50px);
+
+    top: 450px;
+    right: 0;
+}
+
+.backgroundLines {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}

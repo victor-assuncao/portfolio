@@ -1,0 +1,154 @@
+.footer {
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    justify-content: space-between;
+    gap: 100px 50px;
+    padding: 100px 120px; 
+}
+
+/* First Section of Footer */
+
+.footer > .container { /*  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    width: 260px;
+}
+
+.footer > .container > .container { /* Container da logo e subtitle */
+
+}
+
+.footer__label {
+    margin-top: 18px;
+}
+
+.footer__copyright {
+
+}
+
+/* Footer navigaiton */
+
+.footer__navigation {
+
+}
+
+.footer__navigation__title,
+.footer__contacts__title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 26px;
+}
+
+/* Contacts */
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+
+.footer__contact {
+    display: flex;
+    gap: 16px;
+    height: 100%;
+}
+
+.footer__contact:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer__contact > .container { /* Container do icone */
+    height: 24px;
+    width: 24px;
+}
+
+.footer__contact__icon {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.footer__contact__text {
+    line-height: 150% !important; /* Todo: Tirar !important*/
+    width: 240px;
+}
+
+/* Social Media */
+
+.footer__socialMedia {
+    display: flex;
+    
+    gap: 32px;
+}
+
+.footer__socialMedia {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.footer__socialMedia > .container {
+    display: flex;
+    gap: 24px;
+}
+
+.footer__socialMedia > .container > .container { /* Container dos icones */
+    display: inline-block;
+    height: 24px;
+    text-decoration: none;
+    width: 24px;
+}
+
+.footer__socialMedia__icon {
+    height: 100%;
+    width: 100%;
+}
+
+/* Responsive */
+
+@media (max-width: 1260px) {
+
+    .footer {
+        justify-content: center;
+    }
+
+    .footer * {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer__contact__text {
+        text-align: left;
+    }
+}
+
+@media (max-width: 1110px) { /* Tablet Version */
+
+    .footer {
+        padding: 100px 60px;
+    }
+    
+    .footer__socialMedia > .container > .container { /* Container dos icones */
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    
+    .footer__navigation {
+        display: none;
+    }
+}
+
+@media (max-width: 630px) { /* Mobile Version */
+
+    .footer {
+        padding: 60px 16px;
+    }
+
+}
