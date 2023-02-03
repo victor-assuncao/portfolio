@@ -1,3 +1,4 @@
+import { createAsExpression } from "typescript";
 import { Data } from "./data.js";
 
 // window.addEventListener('scroll', () => {
@@ -48,6 +49,7 @@ import { Data } from "./data.js";
 (() => {
 
     // Skills
+
     var swiper = new Swiper("[data-skill-cards]", {
         slidesPerView: 1,
         spaceBetween: 30,

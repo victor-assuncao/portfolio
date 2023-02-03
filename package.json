@@ -17,11 +17,10 @@
   },
   "homepage": "https://github.com/victor-assuncao/portfolio#readme",
   "devDependencies": {
-    "@types/mustache": "^4.2.2",
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "mustache": "^4.2.0",
-    "swiper": "^8.4.7"
+    "@types/swiper": "^6.0.0",
+    "swiper": "^9.0.0"
   }
 }

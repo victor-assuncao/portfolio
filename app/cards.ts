@@ -1,7 +1,7 @@
+// import Swiper from '../node_modules/swiper/swiper';
+// import Swiper from 'swiper';
 import * as Swiper from 'swiper';
-import * as Mustache from 'mustache';
-import * as Data from './data.js';
-
+import { Data } from './data';
 
 export class Cards {
 
@@ -34,7 +34,7 @@ export class Cards {
             }
         });
     
-        let data = new Data.Data().dataSkills
+        let data = new Data().dataSkills
     
         console.log(data)
     }
