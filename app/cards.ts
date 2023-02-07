@@ -1,18 +1,20 @@
-// import Swiper from '../node_modules/swiper/swiper';
-// import Swiper from 'swiper';
-import * as Swiper from 'swiper';
-import { Data } from './data';
+import { Data } from './data.js';
+
+declare const Swiper: any;
+declare const Mustache: any;
+declare const $: any;
 
 export class Cards {
 
     constructor() {
 
-        this.skillSwiper();
+        this.createSkillSwiper();
+        this.createTesimonySwiper();
     }
 
-    skillSwiper() {
+    createSkillSwiper() {
 
-        const swiper = new Swiper.Swiper("[data-skill-cards]", {
+        const swiper = new Swiper("[data-skill-cards]", {
             slidesPerView: 1,
             spaceBetween: 30,
             pagination: {
@@ -33,13 +35,57 @@ export class Cards {
                 }, 
             }
         });
-    
-        let data = new Data().dataSkills
-    
-        console.log(data)
+        
+        // Render cards
+
+        const data: any = new Data().dataSkills;
+
+        let html: string = "";
+
+        data.forEach((element: Object) => {
+
+            const $template = $('[data-card-skill-template]').html();
+            html += Mustache.render($template, element);
+        });
+
+        document.querySelector('[data-card-skill-container]').innerHTML = html;
     }
 
-    testimonySwiper() {
+    createTesimonySwiper() {
 
+        const swiper = new Swiper("[data-testimonies-swiper]", {
+            slidesPerView: "auto",
+            initialSlide: 0,
+            centeredSlides: true,
+            spaceBetween: 30,
+            pagination: {
+              el: ".swiper-pagination",
+              dynamicBullets: true,
+              clickable: true
+            },
+            navigation: {
+                nextEl: "[data-testimonies-next]",
+                prevEl: "[data-testimonies-prev]",
+            },
+            breakpoints: {
+                630: {
+                    initialSlide: 1,
+                }, 
+            }
+        });
+        
+        // Render cards
+
+        const data: any = new Data().dataTestimonies;
+
+        let html: string = "";
+
+        data.forEach((element: Object) => {
+
+            const $template = $('[data-card-testimony-template]').html();
+            html += Mustache.render($template, element);
+        });
+
+        document.querySelector('[data-testimonies-cards-container]').innerHTML = html;
     }
 }

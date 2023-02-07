@@ -18,14 +18,14 @@ export class Data {
                 viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css'
             },
             {
-                title: 'Java Script',
+                title: 'JavaScript',
                 logoName: 'skill_js',
                 description: `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
                     nível com tipagem dinâmica fraca e multiparadigma.`,
                 viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-javascript'
             },
             {
-                title: 'Type Script',
+                title: 'TypeScript',
                 logoName: 'skill_ts',
                 description: `Typescript é uma linguaguem de programação cujo a mesma é um superconjunto sintático estrito de 
                     JavaScript e adiciona tipagem estática opcional à linguagem.`,

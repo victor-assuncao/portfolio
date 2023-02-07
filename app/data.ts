@@ -27,7 +27,7 @@ export class Data {
             },
 
             {
-                title: 'Java Script',
+                title: 'JavaScript',
                 logoName: 'skill_js',
                 description: 
                     `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
@@ -36,7 +36,7 @@ export class Data {
             },
 
             {
-                title: 'Type Script',
+                title: 'TypeScript',
                 logoName: 'skill_ts',
                 description: 
                     `Typescript é uma linguaguem de programação cujo a mesma é um superconjunto sintático estrito de 
