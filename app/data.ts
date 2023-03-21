@@ -7,6 +7,33 @@ export class Data {
     get dataSkills(): Object {
 
         return [
+            
+            {
+                title: 'TypeScript',
+                logoName: 'skill_ts',
+                description: 
+                    `Typescript é uma linguaguem de programação cujo a mesma é um superconjunto sintático estrito de 
+                    JavaScript e adiciona tipagem estática opcional à linguagem.`,
+                viewMoreURL: 'www.tecnoblog.net/responde/o-que-e-typescript-guia-para-iniciantes/'
+            },
+
+            {
+                title: 'JavaScript',
+                logoName: 'skill_js',
+                description: 
+                    `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
+                    nível com tipagem dinâmica fraca e multiparadigma.`,
+                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-javascript'
+            },
+
+            {
+                title: 'Scrumban',
+                logoName: 'skill_scrumban',
+                description: 
+                    `Scrumban é uma abordagem alinhada ao Agile para entrega de produtos, que é um híbrido de Scrum e 
+                    Kanban. O Scrumban foi originalmente projetado como uma forma de transição do Scrum para o Kanban.`,
+                viewMoreURL: 'blog.pmtech.com.br/scrumban/'
+            },
 
             {
                 title: 'HTML',
@@ -27,39 +54,12 @@ export class Data {
             },
 
             {
-                title: 'JavaScript',
-                logoName: 'skill_js',
-                description: 
-                    `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
-                    nível com tipagem dinâmica fraca e multiparadigma.`,
-                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-javascript'
-            },
-
-            {
-                title: 'TypeScript',
-                logoName: 'skill_ts',
-                description: 
-                    `Typescript é uma linguaguem de programação cujo a mesma é um superconjunto sintático estrito de 
-                    JavaScript e adiciona tipagem estática opcional à linguagem.`,
-                viewMoreURL: 'www.tecnoblog.net/responde/o-que-e-typescript-guia-para-iniciantes/'
-            },
-
-            {
                 title: 'Git',
                 logoName: 'skill_git',
                 description: 
                     `Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de 
                     software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.`,
                 viewMoreURL: 'www.atlassian.com/br/git/tutorials/what-is-git'
-            },
-
-            {
-                title: 'Scrumban',
-                logoName: 'skill_scrumban',
-                description: 
-                    `Scrumban é uma abordagem alinhada ao Agile para entrega de produtos, que é um híbrido de Scrum e 
-                    Kanban. O Scrumban foi originalmente projetado como uma forma de transição do Scrum para o Kanban.`,
-                viewMoreURL: 'blog.pmtech.com.br/scrumban/'
             },
         ]
     }

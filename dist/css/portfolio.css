@@ -51,11 +51,11 @@
 }
 
 .portfolio .card:nth-child(1)::before {
-    background-image: url('../img/projects/project_bg_1.jpg');
+    background-image: url('../img/projects/japinturas.jpg');
 }
 
 .portfolio .card:nth-child(2)::before {
-    background-image: url('../img/projects/project_bg_2.jpg');
+    background-image: url('../img/projects/oversthenics.jpg');
 }
 
 .portfolio .card:nth-child(3)::before {
