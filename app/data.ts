@@ -9,6 +9,15 @@ export class Data {
         return [
             
             {
+                title: 'Prototipagem',
+                logoName: 'skill_prototyping',
+                description: 
+                    `A prototipagem é uma forma de visualizar a sua ideia antes mesmo de tirá-la do papel. 
+                    Então a prototipagem busca simular a experiência do usuário com a solução final e mostrar como serão as funcionalidades.`,
+                viewMoreURL: 'blog.pmtech.com.br/scrumban/'
+            },
+            
+            {
                 title: 'TypeScript',
                 logoName: 'skill_ts',
                 description: 
@@ -17,14 +26,6 @@ export class Data {
                 viewMoreURL: 'www.tecnoblog.net/responde/o-que-e-typescript-guia-para-iniciantes/'
             },
 
-            {
-                title: 'JavaScript',
-                logoName: 'skill_js',
-                description: 
-                    `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
-                    nível com tipagem dinâmica fraca e multiparadigma.`,
-                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-javascript'
-            },
 
             {
                 title: 'Scrumban',
@@ -33,6 +34,15 @@ export class Data {
                     `Scrumban é uma abordagem alinhada ao Agile para entrega de produtos, que é um híbrido de Scrum e 
                     Kanban. O Scrumban foi originalmente projetado como uma forma de transição do Scrum para o Kanban.`,
                 viewMoreURL: 'blog.pmtech.com.br/scrumban/'
+            },
+            
+            {
+                title: 'JavaScript',
+                logoName: 'skill_js',
+                description: 
+                    `JavaScript é uma linguagem de programação interpretada estruturada, de script em alto 
+                    nível com tipagem dinâmica fraca e multiparadigma.`,
+                viewMoreURL: 'www.hostinger.com.br/tutoriais/o-que-e-javascript'
             },
 
             {
