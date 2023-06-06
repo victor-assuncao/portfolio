@@ -8,7 +8,7 @@ export class Data {
                 logoName: 'skill_prototyping',
                 description: `A prototipagem é uma forma de visualizar a sua ideia antes mesmo de tirá-la do papel. 
                     Então a prototipagem busca simular a experiência do usuário com a solução final e mostrar como serão as funcionalidades.`,
-                viewMoreURL: 'blog.pmtech.com.br/scrumban/'
+                viewMoreURL: 'blog.betrybe.com/tecnologia/prototipagem/'
             },
             {
                 title: 'TypeScript',
