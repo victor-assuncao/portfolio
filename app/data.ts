@@ -7,7 +7,7 @@ export class Data {
     get dataSkills(): Object {
 
         return [
-            
+
             {
                 title: 'Prototipagem',
                 logoName: 'skill_prototyping',
@@ -25,7 +25,6 @@ export class Data {
                     JavaScript e adiciona tipagem estática opcional à linguagem.`,
                 viewMoreURL: 'www.tecnoblog.net/responde/o-que-e-typescript-guia-para-iniciantes/'
             },
-
 
             {
                 title: 'Scrumban',
